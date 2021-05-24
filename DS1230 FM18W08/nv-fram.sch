@@ -1,0 +1,248 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Memory_NVRAM:FM18W08-SG U1
+U 1 1 609C10E8
+P 5600 4250
+F 0 "U1" H 5600 5331 50  0000 C CNN
+F 1 "FM18W08-SG" H 5600 5240 50  0000 C CNN
+F 2 "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm" H 5600 4250 50  0001 C CNN
+F 3 "http://www.cypress.com/file/136521/download" H 5600 4250 50  0001 C CNN
+	1    5600 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x28 J1
+U 1 1 609C221F
+P 8300 3600
+F 0 "J1" H 8380 3592 50  0000 L CNN
+F 1 "Conn_01x28" H 8380 3501 50  0000 L CNN
+F 2 "Package_DIP:DIP-28_W15.24mm" H 8300 3600 50  0001 C CNN
+F 3 "~" H 8300 3600 50  0001 C CNN
+	1    8300 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 4950 3950 4950
+Wire Wire Line
+	3950 4950 3950 2300
+Wire Wire Line
+	3950 2300 8100 2300
+Wire Wire Line
+	5100 4750 4050 4750
+Wire Wire Line
+	4050 4750 4050 2400
+Wire Wire Line
+	4050 2400 8100 2400
+Wire Wire Line
+	5100 4250 4150 4250
+Wire Wire Line
+	4150 4250 4150 2500
+Wire Wire Line
+	4150 2500 8100 2500
+Wire Wire Line
+	5100 4150 4250 4150
+Wire Wire Line
+	4250 4150 4250 2600
+Wire Wire Line
+	4250 2600 8100 2600
+Wire Wire Line
+	5100 4050 4350 4050
+Wire Wire Line
+	4350 4050 4350 2700
+Wire Wire Line
+	4350 2700 8100 2700
+Wire Wire Line
+	5100 3950 4450 3950
+Wire Wire Line
+	4450 3950 4450 2800
+Wire Wire Line
+	4450 2800 8100 2800
+Wire Wire Line
+	5100 3850 4550 3850
+Wire Wire Line
+	4550 3850 4550 2900
+Wire Wire Line
+	4550 2900 8100 2900
+Wire Wire Line
+	5100 3750 4650 3750
+Wire Wire Line
+	4650 3750 4650 3000
+Wire Wire Line
+	4650 3000 8100 3000
+Wire Wire Line
+	5100 3650 4750 3650
+Wire Wire Line
+	4750 3650 4750 3100
+Wire Wire Line
+	4750 3100 8100 3100
+Wire Wire Line
+	5100 3550 4850 3550
+Wire Wire Line
+	4850 3550 4850 3200
+Wire Wire Line
+	4850 3200 8100 3200
+Wire Wire Line
+	6100 3550 6200 3550
+Wire Wire Line
+	6200 3550 6200 3300
+Wire Wire Line
+	6200 3300 8100 3300
+Wire Wire Line
+	6100 3650 6300 3650
+Wire Wire Line
+	6300 3650 6300 3400
+Wire Wire Line
+	6300 3400 8100 3400
+Wire Wire Line
+	6100 3750 6400 3750
+Wire Wire Line
+	6400 3750 6400 3500
+Wire Wire Line
+	6400 3500 8100 3500
+Wire Wire Line
+	6100 3850 6500 3850
+Wire Wire Line
+	6500 3850 6500 3700
+Wire Wire Line
+	6500 3700 8100 3700
+Wire Wire Line
+	6100 3950 6600 3950
+Wire Wire Line
+	6600 3950 6600 3800
+Wire Wire Line
+	6600 3800 8100 3800
+Wire Wire Line
+	6100 4050 6700 4050
+Wire Wire Line
+	6700 4050 6700 3900
+Wire Wire Line
+	6700 3900 8100 3900
+Wire Wire Line
+	6100 4150 6800 4150
+Wire Wire Line
+	6800 4150 6800 4000
+Wire Wire Line
+	6800 4000 8100 4000
+Wire Wire Line
+	6100 4250 6900 4250
+Wire Wire Line
+	6900 4250 6900 4100
+Wire Wire Line
+	6900 4100 8100 4100
+Wire Wire Line
+	6100 4950 7000 4950
+Wire Wire Line
+	7000 4950 7000 4200
+Wire Wire Line
+	7000 4200 8100 4200
+Wire Wire Line
+	6100 4650 7400 4650
+Wire Wire Line
+	7400 4650 7400 4400
+Wire Wire Line
+	7400 4400 8100 4400
+Wire Wire Line
+	5100 4550 4150 4550
+Wire Wire Line
+	4150 4550 4150 5650
+Wire Wire Line
+	4150 5650 7300 5650
+Wire Wire Line
+	7300 5650 7300 4300
+Wire Wire Line
+	7300 4300 8100 4300
+Wire Wire Line
+	5100 4650 4250 4650
+Wire Wire Line
+	4250 4650 4250 5550
+Wire Wire Line
+	4250 5550 7500 5550
+Wire Wire Line
+	7500 5550 7500 4500
+Wire Wire Line
+	7500 4500 8100 4500
+Wire Wire Line
+	5100 4450 4350 4450
+Wire Wire Line
+	4350 4450 4350 5450
+Wire Wire Line
+	4350 5450 7600 5450
+Wire Wire Line
+	7600 5450 7600 4600
+Wire Wire Line
+	7600 4600 8100 4600
+Wire Wire Line
+	5100 4350 4450 4350
+Wire Wire Line
+	4450 4350 4450 5350
+Wire Wire Line
+	4450 5350 7700 5350
+Wire Wire Line
+	7700 5350 7700 4700
+Wire Wire Line
+	7700 4700 8100 4700
+Wire Wire Line
+	5100 4850 4550 4850
+Wire Wire Line
+	4550 4850 4550 5250
+Wire Wire Line
+	4550 5250 7800 5250
+Wire Wire Line
+	7800 5250 7800 4800
+Wire Wire Line
+	7800 4800 8100 4800
+Wire Wire Line
+	5600 5150 7200 5150
+Wire Wire Line
+	7200 5150 7200 3600
+Wire Wire Line
+	7200 3600 8100 3600
+Wire Wire Line
+	6100 4750 6200 4750
+Wire Wire Line
+	6200 4750 6200 5750
+Wire Wire Line
+	6200 5750 7900 5750
+Wire Wire Line
+	7900 5750 7900 4900
+Wire Wire Line
+	7900 4900 8100 4900
+Wire Wire Line
+	5600 3350 5600 2050
+Wire Wire Line
+	5600 2050 9050 2050
+Wire Wire Line
+	9050 2050 9050 5150
+Wire Wire Line
+	9050 5150 8000 5150
+Wire Wire Line
+	8000 5150 8000 5000
+Wire Wire Line
+	8000 5000 8100 5000
+$Comp
+L power:GND #PWR?
+U 1 1 609FD830
+P 5600 5150
+F 0 "#PWR?" H 5600 4900 50  0001 C CNN
+F 1 "GND" H 5605 4977 50  0000 C CNN
+F 2 "" H 5600 5150 50  0001 C CNN
+F 3 "" H 5600 5150 50  0001 C CNN
+	1    5600 5150
+	1    0    0    -1  
+$EndComp
+Connection ~ 5600 5150
+$EndSCHEMATC
